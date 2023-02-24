@@ -1,7 +1,7 @@
 # dogbreedapp
 In this project, I've created a Backend REST API that make use of get method to get data from https://dog.ceo/dog-api/ built using springboot. The data source also include an inmemory h2 database which you can perform a CRUD operation to. This project also include unit testing of the api with mockito and swagger api documentation. 
 
-To test the program locally, download the `mydogbreedapp-0.0.1-SNAPSHOT.jar` file and run it using the command: `java -jar mydogbreedapp-0.0.1-SNAPSHOT.jar` from terminal/windows cmd and open the `http://localhost:7777/swagger-ui/index.html#/dog-breed-rest-controller` link in your browser. The API that end with v2 (e.g. `/api/breeds/v2`) is the API that perform CRUD operation on h2 in memory database. The API without v2 suffix is the API for getting data from `https://dog.ceo/dog-api/breed` public api
+To test the program locally, download the `mydogbreedapp-0.0.1-SNAPSHOT.jar` file from the target directory and run it using the command: `java -jar mydogbreedapp-0.0.1-SNAPSHOT.jar` from terminal/windows cmd and open the `http://localhost:7777/swagger-ui/index.html#/dog-breed-rest-controller` link in your browser. The API that end with v2 (e.g. `/api/breeds/v2`) is the API that perform CRUD operation on h2 in memory database. The API without v2 suffix is the API for getting data from `https://dog.ceo/dog-api/breed` public api
 
 To see the in memory database schema and executing a query to check the data, you can open this link `http://localhost:7777/h2-console/` after running the program locally and connect to the h2 database from web browser.
 
